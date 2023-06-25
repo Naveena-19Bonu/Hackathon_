@@ -1,0 +1,181 @@
+body{
+  background-color: #EEF8FEA6;
+}
+.image-slider {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+    margin-top: 70px; 
+  }
+  
+  .image-slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .image-slider img.active {
+    opacity: 1;
+  }
+  
+  .slider-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  
+  .section {
+    margin-top: 40px;
+  }
+  
+  .section-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 80px;
+  }
+  .allcourse{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 540px;
+  }
+  .mycourse{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 540px;
+  }
+  
+  /* Course Cards */
+  .course-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+
+  .all-course-cards{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .my-course-cards{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .course-card {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .course-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .course-details {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .mentor-name {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #777;
+  }
+  .course-card {
+    position: relative; /* Add relative positioning to the course card */
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .enroll-button {
+    position: relative;
+    bottom: 10px;
+    left: 50%;
+    margin-top: 40px;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    opacity: 1; /* Hide the button by default-0 */
+  }
+  
+  /* .course-card:hover .enroll-button {
+    opacity: 1; Show the button on hover
+  } */
+  
+  
+
+  /* View More Button */
+  .view-more-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: transparent; /* Set background color to transparent */
+    color: #161617; /* Set text color */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    float: right; /* Align the button to the right */
+  }
+  
+  .view-more-button:hover {
+    background-color: rgba(151, 194, 236, 0.9); /* Set hover background color to transparent */
+    border-radius: 2rem;
+  }
+  
+  /* Adjustments for Image Slider */
+  .image-slider {
+    margin-bottom: 20px;
+  }
+  
+  /* Navbar */
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .course-cards {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    .enroll-button {
+        margin-left: 0;
+        }
+        }  
