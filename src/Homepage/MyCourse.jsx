@@ -26,7 +26,7 @@ const HomePage = () => {
               <div className="course-details">
               <h3 className="course-title">Introduction to Generative AI-The New Era</h3>
                 <p className="mentor-name">Mentor: Zaid Sabhil, z scaler</p>
-                <button className="enroll-button">Enroll Now</button>
+                <button className="enroll-button">Continue Learning</button>
               </div>
             </div>
             
@@ -35,7 +35,7 @@ const HomePage = () => {
               <div className="course-details">
               <h3 className="course-title">Advance DBMS(Master Classes)</h3>
                 <p className="mentor-name">Mentor: Joan Reddy</p>
-                <button className="enroll-button">Enroll Now</button>
+                <button className="enroll-button">Continue Learning</button>
               </div>
             </div>
           </div>

@@ -67,11 +67,10 @@ select {
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: url(C:\Users\850066770\Documents\hackathon\Hackathon\src\Images\signup_image.png);
+  background-image: url(/src/Images/signup_image.png);
   background-position: center;
   opacity: 0.9;
 }
-
 @media screen and (max-width: 768px) {
   .signupcontainer {
     margin: 100px 20px;
