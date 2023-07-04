@@ -1,70 +1,17 @@
-# Getting Started with Create React App
+Objective: 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+         “Gen-Learn” is a ground breaking study tool revolutionizing independent learning. Powered by advanced AI, it maximizes textbook analysis, personalized quizzes, and valuable feedback and collaboration. It generates relevant questions for comprehensive self-assessment, while swift feedback clarifies correct answers and provides improvement suggestions. Experience a transformative learning journey, uncover your full potential, and cultivate efficient study habits. Benefit from enhanced comprehension, personalized guidance, seamless collaboration, and accelerated academic progress. With "Gen-Learn" students gain the tools they need to excel independently, making education engaging, effective, and tailored to individual needs. 
+ 
+Functionalities: 
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1.	Login Page: User can login using email and password.
+2.	Signup Page: User can easily signup by giving basic essential information like name, age, gender, education type and so on.
+3.	Homepage: In this the user can view all the latest trending courses and his recent courses. In navbar he can view all the other functionalities of GENLEARN.
+4.	All Courses: All the courses with their names, tutor details will be visible.
+5.	My Courses: All the enrolled courses will be visible
+6.	Friends: They can view all their courses and their friends names in that course. They can also see their unique Code which can be shared and develop collaborative learning.
+7.	Contact Us: Any confusion in using GEN LEARN. They can contact us.
+8.	Profile: User can update their profile details anytime including their profile picture.
+9.	CHAT BOT: Using Gen AI it tries to clarify doubts of the learner and can also analyse pdf or text paraph and give summary or key points as AI TUTOR.
+10.	QUIZ BOT: It also uses advanced AI technologies like QUIZBOT to generate questions based on the textbook material or pdf and quiz the student on the material.
+11.	The student can then receive feedback on their answers, using QUIZBOT &CHATBOT by providing encouraging feedback on whether their answer is correct and how they can improve if it's wrong.
